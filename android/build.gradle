@@ -1,4 +1,4 @@
-namespace 'com.whelksoft.flutter_native_timezone'
+// namespace 'com.whelksoft.flutter_native_timezone'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -13,6 +13,11 @@ buildscript {
     }
 }
 
+plugins {
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+}
+
 rootProject.allprojects {
     repositories {
         google()
@@ -20,16 +25,8 @@ rootProject.allprojects {
     }
 }
 
-// apply plugin: 'com.android.library'
-// apply plugin: 'kotlin-android'
-
-
-plugins {
-    id 'kotlin-android'
-    id 'kotlin-android-extensions'
-}
-
 android {
+    namespace 'com.whelksoft.flutter_native_timezone'
     compileSdkVersion 30
 
     sourceSets {
