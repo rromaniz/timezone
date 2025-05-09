@@ -2,8 +2,8 @@
 // version '1.0-SNAPSHOT'
 
 plugins {
-    id 'kotlin-android'
-    id 'kotlin-android-extensions'
+    id "com.android.application"
+    id "kotlin-android"
 }
 
 // rootProject.allprojects {
