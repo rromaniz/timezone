@@ -31,6 +31,7 @@ android {
 }
 
 dependencies {
+    def kotlin_version = "1.8.10" // Cambia a la versión que necesites
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
 
